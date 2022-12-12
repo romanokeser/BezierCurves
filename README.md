@@ -4,11 +4,11 @@
 - No shader was used in rendering, only LineRenderer
 
 #
-Dragging control points
-#
+Dragging 'control points'
+
 ![](/Assets/gif1.gif)
 
 #
-Controling color, line width and number of points
-#
+Controlling color, line width and number of points
+
 ![](/Assets/gif2.gif)
