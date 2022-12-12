@@ -9,6 +9,6 @@ Dragging 'control points'
 ![](/Assets/gif1.gif)
 
 #
-Controlling color, line width and number of points
+Controlling color, line width and number of points (resolution)
 
 ![](/Assets/gif2.gif)
