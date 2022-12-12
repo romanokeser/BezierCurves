@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragPoint : MonoBehaviour, IDragHandler, IPointerDownHandler, IBeginDragHandler, IEndDragHandler
+public class DragPoint : MonoBehaviour, IDragHandler
 {
     [SerializeField] private Canvas _canvas;
     private RectTransform _rectTransform;
@@ -16,20 +14,5 @@ public class DragPoint : MonoBehaviour, IDragHandler, IPointerDownHandler, IBegi
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta * _canvas.scaleFactor;
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        Debug.Log("On end drag");
-    }
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        Debug.Log("On begin drag");
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        Debug.Log("On pinter down");
     }
 }
