@@ -5,8 +5,10 @@
 
 #
 Dragging control points
+#
 ![](/Assets/gif1.gif)
 
 #
 Controling color, line width and number of points
+#
 ![](/Assets/gif2.gif)
